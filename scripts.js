@@ -17,7 +17,7 @@ button.onclick = function gooi() {
   }
 
 function dobbel() {
-    while(dobbelArray.length < 8) {
+    while(dobbelArray.length < 5) {
         let random = Math.floor((Math.random() * 6) + 1);
         dobbelArray.push(random);
         worp[random]++;
